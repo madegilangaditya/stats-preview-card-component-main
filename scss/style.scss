@@ -1,0 +1,84 @@
+@import 'config';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 15px;
+    font-family: $font-paragraph;
+    color: $p-color;
+    line-height: 1.5;
+}
+
+h1, h2{
+    font-family: $font-heading;
+    color: $heading-color;
+    line-height: 1.2;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.showcase{
+    
+    padding: 180px 165px;
+    background-color: $primary-background;
+    
+
+    &-card{
+        display: flex;
+        justify-content: space-between;
+        background-color: $card-background;
+        border-radius: 8px;
+        overflow:hidden;
+
+        &-left{
+            padding: 70px 100px 54px 70px;
+            font-family: $font-heading;
+            width: 50%;
+
+            h1{
+                margin-bottom: 1em;
+                font-size: 35px;
+
+                span{
+                    color: $img-accent;
+                }
+            }
+
+            ul{
+                display: flex;
+                align-items: center;
+                max-width: 350px;
+                justify-content: space-between;
+                margin-top: 70px;
+
+                li{
+                    list-style-type: none;                   
+                    font-family: $font-paragraph;
+                    
+                    p{
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 49%;
+            background: url(/images/image-header-desktop.jpg) right top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-blend-mode: multiply;
+            background-color: #aa5cdb;
+
+        }
+
+    }
+}
+
+@import 'responsive';

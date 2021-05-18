@@ -1,0 +1,45 @@
+@media all and (min-width:701px) and (max-width:1200px) {
+    .showcase{    
+        padding: 88px 24px;
+
+        &-card-left{
+            padding: 40px 28px;
+        }
+    }
+}
+
+@media (max-width:700px) {
+    .showcase{
+    
+        padding: 88px 24px;
+
+        &-card{
+            flex-direction: column-reverse;
+            justify-content: center;
+    
+            &-left{
+                padding: 40px 28px;
+                width:  100%;
+                text-align: center;
+    
+                h1{
+                    font-size: 28px;
+                }
+    
+                ul{
+                    flex-direction: column;
+                    max-width: 100%;
+                    justify-content: center;
+                    margin-top: 40px;
+                    text-align: center;
+                    gap: 30px;
+                }
+            }
+            &-right{
+                width: 100%;
+                min-height: 240px;
+            }
+    
+        }
+    }
+}
