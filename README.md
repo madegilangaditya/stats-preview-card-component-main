@@ -17,4 +17,3 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - Website - [Made Gilang Aditya](https://mdgilangaditya.com/)
 - Frontend Mentor - [@madegilangaditya](https://www.frontendmentor.io/profile/madegilangaditya)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
