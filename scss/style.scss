@@ -7,7 +7,7 @@
 }
 
 body{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: $font-paragraph;
     color: $p-color;
     line-height: 1.5;
@@ -28,7 +28,8 @@ h1, h2{
     
     padding: 180px 165px;
     background-color: $primary-background;
-    
+    min-height: 100vh;
+    display: grid;
 
     &-card{
         display: flex;
@@ -54,7 +55,7 @@ h1, h2{
             ul{
                 display: flex;
                 align-items: center;
-                max-width: 350px;
+                // max-width: 350px;
                 justify-content: space-between;
                 margin-top: 70px;
 
@@ -75,6 +76,7 @@ h1, h2{
             background-repeat: no-repeat;
             background-blend-mode: multiply;
             background-color: #aa5cdb;
+            opacity: 0.6;
 
         }
 
