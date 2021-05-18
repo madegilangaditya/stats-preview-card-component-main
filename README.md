@@ -2,7 +2,8 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Front End Mentor](https://www.frontendmentor.io/solutions/using-flexbox-and-sass-h8WrhS5b2)
+- Live URL: [Github Pages](https://madegilangaditya.github.io/stats-preview-card-component-main/)
 
 
 ## Built with
